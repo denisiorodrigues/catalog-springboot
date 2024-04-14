@@ -50,6 +50,8 @@ public class ProductController {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body("product not found");
         }
 
+        productFinded.get().add(linkTo(methodOn(ProductController.class).getAllProducts()).withSelfRel());
+
         return ResponseEntity.status(HttpStatus.OK).body(productFinded.get());
     }
 
