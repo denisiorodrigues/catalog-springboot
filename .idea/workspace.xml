@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d5aee8a-d15b-4812-913d-e6ffe8262fbc" name="Changes" comment="feat: add product record">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kindincode/springboot/controllers/ProductController.java" afterDir="false" />
+    <list default="true" id="2d5aee8a-d15b-4812-913d-e6ffe8262fbc" name="Changes" comment="feat: save product">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kindincode/springboot/controllers/ProcutController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kindincode/springboot/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kindincode/springboot/controllers/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kindincode/springboot/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kindincode/springboot/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kindincode/springboot/models/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kindincode/springboot/models/Product.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,21 +62,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Web.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringbootApplicationTests.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/workspace/capgemini/vw-cvve-api/pom.xml&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Web.executor": "Debug",
+    "JUnit.SpringbootApplicationTests.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/workspace/capgemini/vw-cvve-api/pom.xml",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "settings.sync"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Web" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.kindincode.springboot.SpringbootApplication" />
@@ -132,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713104164242</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: save product">
+      <option name="closed" value="true" />
+      <created>1713104469167</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713104469167</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +162,18 @@
     <MESSAGE value="feat: Add product repository" />
     <MESSAGE value="feat: add product controller" />
     <MESSAGE value="feat: add product record" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add product record" />
+    <MESSAGE value="feat: save product" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: save product" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kindincode/springboot/controllers/ProductController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
