@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d5aee8a-d15b-4812-913d-e6ffe8262fbc" name="Changes" comment="refactor: refactoring this project">
+    <list default="true" id="2d5aee8a-d15b-4812-913d-e6ffe8262fbc" name="Changes" comment="feat: add product controller">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kindincode/springboot/dtos/ProductRecordDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +18,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -105,7 +107,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713102874404</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: Add product repository">
+      <option name="closed" value="true" />
+      <created>1713103624916</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713103624916</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: add product controller">
+      <option name="closed" value="true" />
+      <created>1713103679173</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713103679173</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +139,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor: refactoring this project" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: refactoring this project" />
+    <MESSAGE value="feat: Add product repository" />
+    <MESSAGE value="feat: add product controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add product controller" />
   </component>
 </project>
